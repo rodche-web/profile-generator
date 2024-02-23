@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+# Profile Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![profilegen](https://github.com/rodche-web/profile-generator/assets/54510680/5bcf0db2-ca6f-4163-9bcb-e3b043e98005)
 
-Currently, two official plugins are available:
+This applications generates random names and passwords.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to run on local machine
 
-## Expanding the ESLint configuration
+Clone the files.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+`git clone https://github.com/rodche-web/profile-generator.git`
 
-- Configure the top-level `parserOptions` property like this:
+Go to the directory and type npm run dev
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+`npm run dev`
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Enjoy!
