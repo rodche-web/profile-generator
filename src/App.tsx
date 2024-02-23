@@ -29,6 +29,7 @@ function App() {
       imageUrl: large,
     }
   
+    localStorage.setItem('profile', JSON.stringify(profile))
     setProfile(profile)
     setIsLoading(false)
   }
